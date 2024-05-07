@@ -24,9 +24,9 @@ python cognitobrute.py [options]
 ## Usage
 
 ```
-usage: cognitobrute.py [-h] [--proxy PROXY] url username_file password_file
+usage: cognito-brute-force.py [-h] [--proxy PROXY] URL username_file password_file
 
-Amazon Cognito Login Bruteforcer
+Amazon Cognito Bruteforcer. Github: https://github.com/root4loot/cognito-brute-force
 
 positional arguments:
   url            Base URL for login

@@ -1,7 +1,4 @@
-# Amazon Cognito Brute Force Tool
-
-A tool used to automate login attempts against Amazon Cognito, implementing delays to manage rate limits. Runs headless using Selenium.
-
+Brute force Amazon Cognito with headless selenium.
 
 ## Installation
 

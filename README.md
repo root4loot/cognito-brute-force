@@ -1,4 +1,4 @@
-Brute force Amazon Cognito with headless selenium.
+# Amazon Cognito Bruteforce Tool
 
 ## Installation
 
@@ -24,9 +24,10 @@ python cognitobrute.py [options]
 ## Usage
 
 ```
-usage: cognito-brute-force.py [-h] [--proxy PROXY] URL username_file password_file
+usage: cognito-brute-force.py [-h] [--proxy PROXY] url username_file password_file
 
-Amazon Cognito Bruteforcer. Github: https://github.com/root4loot/cognito-brute-force
+Amazon Cognito Bruteforce Tool
+https://github.com/root4loot/cognito-brute-force
 
 positional arguments:
   url            Base URL for login

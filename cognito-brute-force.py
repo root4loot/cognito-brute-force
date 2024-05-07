@@ -111,7 +111,7 @@ def attempt_login(base_url, email_list_file, password_list_file, proxy_address=N
     driver.quit()
 
 def main():
-    parser = argparse.ArgumentParser(description='Amazon Cognito Bruteforcer. Github: https://github.com/root4loot/cognito-brute-force')
+    parser = argparse.ArgumentParser(description='Amazon Cognito Bruteforce Tool\nhttps://github.com/root4loot/cognito-brute-force', formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument('url', help='Base URL for login')
     parser.add_argument('username_file', help='File containing usernames')
     parser.add_argument('password_file', help='File containing passwords')
